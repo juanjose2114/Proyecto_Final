@@ -1,0 +1,14 @@
+%{
+  "1094888" => %Emergencias.Modelos.Persona{
+    id: "P-1",
+    documento: "1094888",
+    nombre: "Andres",
+    edad: 25,
+    zona: "centro",
+    estado: :localizada,
+    historial_estados: [
+      {"2026-11-13 17:42:04", :localizada},
+      {"2026-11-13 17:39:21", :localizada}
+    ]
+  }
+}

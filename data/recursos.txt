@@ -1,0 +1,24 @@
+%{
+  "R001" => %Emergencias.Modelos.Recurso{
+    codigo: "R001",
+    nombre: "agua",
+    categoria: :agua,
+    cantidad: 20,
+    unidad: "litros",
+    ubicacion: "bodega",
+    historial: [
+      %{
+        tipo: :salida,
+        cantidad: 30,
+        detalle: "Asignado a necesidad N001",
+        fecha: "2026-11-13 17:41:38"
+      },
+      %{
+        tipo: :entrada,
+        cantidad: 50,
+        detalle: "Registro inicial en bodega",
+        fecha: "2026-11-13 17:39:21"
+      }
+    ]
+  }
+}

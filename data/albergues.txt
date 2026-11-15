@@ -1,0 +1,9 @@
+%{
+  "A01" => %Emergencias.Modelos.Albergue{
+    codigo: "A01",
+    nombre: "Coliseo del Cafe",
+    zona: "centro",
+    capacidad_maxima: 50,
+    ocupantes: MapSet.new(["1094888"])
+  }
+}

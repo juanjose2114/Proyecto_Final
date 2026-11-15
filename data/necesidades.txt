@@ -1,0 +1,13 @@
+%{
+  "N001" => %Emergencias.Modelos.Necesidad{
+    id: "N001",
+    tipo: :agua,
+    descripcion: "Punto de atencion sector 3",
+    cantidad_requerida: 30,
+    zona: "centro",
+    prioridad: :critica,
+    responsable: "laura",
+    cantidad_asignada: 30,
+    estado: :atendida
+  }
+}

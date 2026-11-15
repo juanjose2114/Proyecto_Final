@@ -1,0 +1,18 @@
+[
+  %Emergencias.Modelos.MensajeFamiliar{
+    id: "M-1",
+    fecha: "2026-11-13 17:42:04",
+    remitente: "laura",
+    destinatario_doc: "1094888",
+    contenido: "Estamos a salvo en el parque central",
+    estado: :pendiente
+  },
+  %Emergencias.Modelos.MensajeFamiliar{
+    id: "M-2",
+    fecha: "2026-11-13 17:39:21",
+    remitente: "juan",
+    destinatario_doc: "1094888",
+    contenido: "Estoy bien en el albergue",
+    estado: :pendiente
+  }
+]

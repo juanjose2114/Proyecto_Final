@@ -1,0 +1,9 @@
+%{
+  "Z01" => %Emergencias.Modelos.Zona{
+    codigo: "Z01",
+    nombre: "Centro",
+    nivel_afectacion: :critico,
+    personas_afectadas: 120,
+    sectores: []
+  }
+}

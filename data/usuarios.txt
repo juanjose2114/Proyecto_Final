@@ -1,0 +1,49 @@
+%{
+  "juan" => %Emergencias.Modelos.Usuario{
+    username: "juan",
+    password: "0000",
+    nombre_completo: "juan",
+    rol: :ciudadano,
+    zona_principal: "centro",
+    conectado?: true,
+    bitacora: [
+      {"2026-11-13 17:43:22", "Inicio de sesión"},
+      {"2026-11-13 17:39:21", "Envió mensaje familiar a 1094888"},
+      {"2026-11-13 17:39:21", "Reportó persona 1094888"},
+      {"2026-11-13 17:39:21", "Registro automático y conexión"}
+    ]
+  },
+  "laura" => %Emergencias.Modelos.Usuario{
+    username: "laura",
+    password: "1234",
+    nombre_completo: "laura",
+    rol: :coordinador,
+    zona_principal: "centro",
+    conectado?: false,
+    bitacora: [
+      {"2026-11-13 17:43:22", "Cierre de sesión"},
+      {"2026-11-13 17:43:05", "Consultó resumen global (summary)"},
+      {"2026-11-13 17:42:56", "Consultó reporte de ocupación de albergues"},
+      {"2026-11-13 17:42:55", "Ingresó persona 1094888 en albergue A01"},
+      {"2026-11-13 17:42:55", "Registró albergue A01"},
+      {"2026-11-13 17:42:23", "Confirmó match MP001 <-> ME002"},
+      {"2026-11-13 17:42:21", "Ejecutó matching de mascotas"},
+      {"2026-11-13 17:42:21", "Reportó mascota (encontrada)"},
+      {"2026-11-13 17:42:21", "Reportó mascota (perdida)"},
+      {"2026-11-13 17:42:08", "Consultó mensajes de 1094888"},
+      {"2026-11-13 17:42:04", "Envió mensaje familiar a 1094888"},
+      {"2026-11-13 17:42:04", "Reportó persona 1094888"},
+      {"2026-11-13 17:41:43", "Consultó inventario de recursos"},
+      {"2026-11-13 17:41:38", "Asignó 30 de agua a N001"},
+      {"2026-11-13 17:41:38", "Registró recurso R001"},
+      {"2026-11-13 17:41:38", "Registró necesidad de agua"},
+      {"2026-11-13 17:41:17", "Consultó zona Z01"},
+      {"2026-11-13 17:41:00", "Registró zona Z01"},
+      {"2026-11-13 17:41:00", "Inicio de sesión"},
+      {"2026-11-13 17:39:21", "Consultó resumen global (summary)"},
+      {"2026-11-13 17:39:21", "Consultó inventario de recursos"},
+      {"2026-11-13 17:39:21", "Registró recurso R001"},
+      {"2026-11-13 17:39:21", "Registro automático y conexión"}
+    ]
+  }
+}

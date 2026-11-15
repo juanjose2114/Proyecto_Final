@@ -1,0 +1,28 @@
+%{
+  "ME002" => %Emergencias.Modelos.Mascota{
+    id: "ME002",
+    tipo_reporte: :encontrada,
+    especie: "perro",
+    caracteristicas: "negra, mediana",
+    color: "negra",
+    tamano: :mediana,
+    zona: "centro",
+    contacto: "3205552222",
+    nombre: "desconocido",
+    estado: :resuelta,
+    match_id: "MP001"
+  },
+  "MP001" => %Emergencias.Modelos.Mascota{
+    id: "MP001",
+    tipo_reporte: :perdida,
+    especie: "perro",
+    caracteristicas: "negra, mediana",
+    color: "negra",
+    tamano: :mediana,
+    zona: "centro",
+    contacto: "3105551111",
+    nombre: "Luna",
+    estado: :resuelta,
+    match_id: "ME002"
+  }
+}
